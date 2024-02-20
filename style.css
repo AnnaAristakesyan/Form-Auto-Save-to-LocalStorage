@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+input{
+    width: 300px;
+}
